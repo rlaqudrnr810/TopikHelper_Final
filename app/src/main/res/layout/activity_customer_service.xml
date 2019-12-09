@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF0FFFF"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp"
+    tools:context=".Customer_Service_Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFCF6"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:background="#F1C40F"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center|left"
+                android:text="Customer Service"
+                android:textColor="#070707"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFCF6">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                tools:ignore="MissingConstraints">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical">
+                        <!-- daily voca -->
+                        <TextView
+                            android:id="@+id/q1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#F1C40F"
+                            android:text="1. How can I use the commentary function?"
+                            android:textColor="#070707"
+                            android:textSize="20sp"
+                            android:padding="10dp" />
+
+
+                        <TextView
+                            android:id="@+id/a1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="#FFFFFFFF"
+                            android:divider="#FAFAFA"
+                            android:dividerHeight="2dp"
+                            android:elevation="10dp"
+                            android:padding="10dp"
+                            android:text="  > A user who has solved a problem can request a commentary and a commentary is registered with the administrator's approval."
+                            android:textColor="#070707"
+                            android:textSize="15sp"
+                            android:visibility="gone"/>
+
+                    </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical">
+                    <!-- daily voca -->
+
+                    <TextView
+                        android:id="@+id/q2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#F1C40F"
+                        android:padding="10dp"
+                        android:text="2. Time function does not work in the Virtual test."
+                        android:textColor="#070707"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="#FFFFFFFF"
+                        android:divider="#FAFAFA"
+                        android:dividerHeight="2dp"
+                        android:elevation="10dp"
+                        android:padding="10dp"
+                        android:text="  > For the listening and writing questions, time measurement is not provided.\n The function is used in the reading test."
+                        android:textColor="#070707"
+                        android:textSize="15sp"
+                        android:visibility="gone"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical">
+                    <!-- daily voca -->
+
+
+                    <TextView
+                        android:id="@+id/q3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="0dp"
+                        android:background="#F1C40F"
+                        android:padding="10dp"
+                        android:text="3. Are the vocabulary words useful for the test?"
+                        android:textColor="#070707"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="#FFFFFFFF"
+                        android:divider="#FAFAFA"
+                        android:padding="10dp"
+                        android:dividerHeight="2dp"
+                        android:elevation="10dp"
+                        android:text="  > Vocabulary is a collection of frequent vocabulary of past questions."
+                        android:textColor="#070707"
+                        android:textSize="15sp"
+                        android:visibility="gone"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical">
+                    <!-- daily voca -->
+
+
+                    <TextView
+                        android:id="@+id/q4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#F1C40F"
+                        android:padding="10dp"
+                        android:text="4. What problems are provided in the Random Solve section?"
+                        android:textColor="#070707"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/a4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="#FFFFFFFF"
+                        android:padding="10dp"
+                        android:divider="#FAFAFA"
+                        android:dividerHeight="2dp"
+                        android:elevation="10dp"
+                        android:text="  > All types of questions are presented at random."
+                        android:textColor="#070707"
+                        android:textSize="15sp"
+                        android:visibility="gone"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:orientation="vertical">
+                    <!-- daily voca -->
+                    <TextView
+                        android:id="@+id/q5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#F1C40F"
+                        android:text="5. I registered, but I can't remember my password."
+                        android:textColor="#070707"
+                        android:textSize="20sp"
+                        android:padding="10dp" />
+
+
+                    <TextView
+                        android:id="@+id/a5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="#FFFFFFFF"
+                        android:padding="10dp"
+                        android:divider="#FAFAFA"
+                        android:dividerHeight="2dp"
+                        android:elevation="10dp"
+                        android:text="  > You can set a new password through the Find password button."
+                        android:textColor="#070707"
+                        android:textSize="15sp"
+                        android:visibility="gone"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

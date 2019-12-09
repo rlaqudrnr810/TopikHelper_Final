@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "715333967826",
+    "firebase_url": "https://topikhelper-4bbaa.firebaseio.com",
+    "project_id": "topikhelper-4bbaa",
+    "storage_bucket": "topikhelper-4bbaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715333967826:android:452a188eb7aacb4efeb20b",
+        "android_client_info": {
+          "package_name": "com.example.topikhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715333967826-41qedj215pl0c8ihl0abod45c1t3r0qf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.topikhelper",
+            "certificate_hash": "db95262bdf99f20bdac780588e0a0fcedde84779"
+          }
+        },
+        {
+          "client_id": "715333967826-gal7gaqderto9dtnc2iae5jse1vp01tp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSvKhiurDsHPrpI-SFBbajVH40lxLSzZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715333967826-gal7gaqderto9dtnc2iae5jse1vp01tp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

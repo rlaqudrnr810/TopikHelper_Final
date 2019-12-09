@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFCF6"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp"
+    tools:context=".VirtualTest_Select_Activity">
+
+
+    <!-- 상단바 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFCF6"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:background="#F1C40F"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center|left"
+                android:text="Solve one by one"
+                android:textColor="#070707"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="Please select the button you want."
+                android:textColor="#FF000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="#FFFFFFFF"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center">
+                <Button
+                    android:id="@+id/problem_random"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:text="Random Test"
+                    android:background="@drawable/btn_roundsoft_click"
+                    android:textColor="#FF000000"/>
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="0dp"/>
+                <Button
+                    android:id="@+id/problem_type"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:text="Type Test"
+                    android:background="@drawable/btn_roundsoft_click"
+                    android:textColor="#FF000000"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

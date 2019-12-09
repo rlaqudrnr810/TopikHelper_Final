@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TopikHelper</string>
+
+    <string name="email">이메일</string>
+    <string name="password">비밀번호</string>
+
+    <string name="check_e">메일 확인</string>
+    <string name="check_p">비밀번호 확인</string>
+
+
+    <string name="login">로그인</string>
+    <string name="success_login">로그인 성공</string>
+    <string name="failed_login">로그인 실패</string>
+
+    <string name="signUp">회원가입</string>
+    <string name="success_signUp">회원가입 성공</string>
+    <string name="failed_signUp">회원가입 실패</string>
+
+    <string name="signin">로그인</string>
+
+    <string name="signup">회원가입</string>
+    <string name="success_signup">회원가입 성공</string>
+    <string name="failed_signup">회원가입 실패</string>
+</resources>

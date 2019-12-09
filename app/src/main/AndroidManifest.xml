@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.topikhelper">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/topikhelper"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".Customer_Service_Activity"></activity>
+        <activity android:name=".Daily_Voca_Test_Activity" />
+        <activity android:name=".Translation_Activity" />
+        <activity android:name=".History_Activity" />
+        <activity
+            android:name=".One_Solve_Writing_Activity"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".Solution_AddingPopup_Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/popupTheme" />
+        <activity
+            android:name=".Solution_Popup_Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/popupTheme" />
+        <activity android:name=".VirtualTest_Wrong_Question_Activity" />
+        <activity android:name=".One_Solve_Grammar_Activity" />
+        <activity android:name=".VirtualTest_Result_Activity" />
+        <activity android:name=".One_Solve_Reading_Activity" />
+        <activity android:name=".One_Solve_Listening_Activity" />
+        <activity android:name=".Type_Solve_Activity" />
+        <activity android:name=".Random_Solve_Activity" />
+        <activity android:name=".One_Solve_Select_Activity" />
+        <activity
+            android:name=".Dictionary_Select_Activity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".Daily_Voca_Activity" />
+        <activity android:name=".Mypage_Activity" />
+        <activity android:name=".VirtualTest_Activity" />
+        <activity android:name=".VirtualTest_Select_Activity" />
+        <activity android:name=".Menu_Activity" />
+        <activity android:name=".Login" />
+        <activity android:name=".Signup_Activity" />
+        <activity android:name=".FindPassword" />
+        <activity android:name=".Main_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

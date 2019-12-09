@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFCF6"
+    tools:context=".VirtualTest_Activity">
+
+
+    <!-- 상단바 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFCF6"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:background="#F1C40F"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center|left"
+                android:text="Virtual Testing Result"
+                android:textColor="#070707"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFCF6"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="The test is over. Check your score."
+                    android:textSize="15sp"
+                    android:textColor="#070707"/>
+                <TextView
+                    android:id="@+id/score"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="2"
+                    android:text="내점수 / 100"
+                    android:textColor="#070707"
+                    android:textSize="18sp"
+                    android:textStyle="normal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="9">
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="1dp"
+                        android:text="Count"
+                        android:textColor="#FF000000"
+                        android:background="#F1C40F"/>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="1dp"
+                        android:text="Question#"
+                        android:textColor="#FF000000"
+                        android:background="#F1C40F"/>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="1dp"
+                        android:text="Answer"
+                        android:textColor="#FF000000"
+                        android:background="#F1C40F"/>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="1dp"
+                        android:text="My answer"
+                        android:textColor="#FF000000"
+                        android:background="#F1C40F"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <ListView
+                            android:id="@+id/list"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_margin="5dp"
+                            android:divider="#FAFAFA"
+                            android:dividerHeight="4dp"
+                            android:elevation="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="9">
+                    <Button
+                        android:id="@+id/wrong"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Check for wrong problem"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:textColor="#FF000000"
+                        android:textSize="10dp"
+                        android:background="@drawable/btn_roundsoft"/>
+
+
+                    <Button
+                        android:id="@+id/all"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Check for all problem"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:textSize="10dp"
+                        android:textColor="#FF000000"
+                        android:background="@drawable/btn_roundsoft"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

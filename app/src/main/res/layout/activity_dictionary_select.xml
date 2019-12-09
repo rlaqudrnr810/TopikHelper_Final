@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF0FFFF"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp"
+    tools:context=".Dictionary_Select_Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFCF6"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:background="#F1C40F"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center|left"
+                android:text="Dictionary"
+                android:textColor="#070707"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFCF6">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <!-- daily voca -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#F1C40F"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:layout_weight="5"
+                            android:background="@drawable/dailyvoca2"/>
+                        <Button
+                            android:id="@+id/daily_voca"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Daily Voca"
+                            android:textColor="#FF000000"
+                            android:textAllCaps="false"
+                            android:textSize="20sp"
+                            android:gravity="center|left"
+                            android:background="#F1C40F" />
+
+                    </LinearLayout>
+
+                    <ListView
+                        android:id="@+id/dailyvocalist"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:background="#FFFFFFFF"
+                        android:divider="#FAFAFA"
+                        android:dividerHeight="2dp"
+                        android:elevation="10dp"
+                        android:layout_marginBottom="2dp" />
+
+                    <!-- search voca -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#F1C40F"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:layout_weight="5"
+                            android:background="@drawable/translation"/>
+                        <Button
+                            android:id="@+id/search_voca"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_weight="1"
+                            android:padding="10dp"
+                            android:text="Search Voca"
+                            android:textColor="#FF000000"
+                            android:textAllCaps="false"
+                            android:textSize="20sp"
+                            android:gravity="center|left"
+                            android:background="#F1C40F" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#FAFAFA"
+                        android:elevation="10dp"
+                        android:layout_marginBottom="20dp"
+                        >
+
+                        <LinearLayout
+                            android:id="@+id/dictionaryLinear3"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="4">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center|left"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="5dp"
+                                    android:text="input the korean for search"
+                                    android:textColor="#FF000000"
+                                    android:textSize="20dp"
+                                    android:textStyle="italic"/>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:gravity="center"
+                                android:layout_weight="4">
+                                <EditText
+                                    android:id="@+id/dictionarytext"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/shape"
+                                    android:ems="10"
+                                    android:hint="Search"
+                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginRight="10dp"
+                                    android:inputType="text"
+                                    android:textColor="#FF000000"
+                                    android:textColorHint="#FF888888"
+                                    android:textSize="25dp"
+                                    android:textStyle="italic"/>
+                                <ImageView
+                                    android:id="@+id/url"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="5"
+                                    android:layout_marginRight="20dp"
+                                    android:padding="7dp"
+                                    android:src="@drawable/translation"/>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
